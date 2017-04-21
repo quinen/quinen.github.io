@@ -1,0 +1,23 @@
+ - gerer un menu contenu dans un fichier json
+ - creer le site en react
+ - integrer la bibliotheque css semantic-ui
+ - section :
+   CV
+     format json_resume
+     possibilité de telechargement pdf,doc,txt ...etc ...
+   Apps
+     generateur de fractionné pour tapis
+     gestion de stock multisite avec creation de produit multi element
+       ex : 2 pains, 1 fromage, 1 jambon = 1 sandwich
+     convertisseur rgb <> hsl
+   Liens
+     sur une page retrouver l'ensemble des sites dont j'ai besoin + historique des ajouts
+   Dev Help
+     node.js
+     		create new app
+     		  npm init -y
+     		  npm i --save react react-dom prop-types
+     		  touch .gitignore
+
+     h
+

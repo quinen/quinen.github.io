@@ -1,0 +1,25 @@
+{
+  "name": "quinen.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/quinen/quinen.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinen/quinen.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinen/quinen.github.io/issues"
+  },
+  "homepage": "https://github.com/quinen/quinen.github.io#readme",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
