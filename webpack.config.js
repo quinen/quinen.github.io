@@ -2,13 +2,13 @@ var webpack = require('webpack');
 var path = require('path');
 
 var APP_DIR = path.resolve(__dirname, 'app');
-var BUILD_DIR = path.resolve(__dirname, 'public/js');
+var BUILD_DIR = path.resolve(__dirname, 'public');
 
 module.exports = {
   entry: APP_DIR + '/index.jsx',
   output: {
-    path: BUILD_DIR,
-    filename: 'bundle.js'
+    path: BUILD_DIR + "/..",
+    filename: './public/bundle.js'
   },
   module: {
     loaders: [{
@@ -19,10 +19,15 @@ module.exports = {
     }, {
       test: /\.(css)$/,
       use: ['style-loader', 'css-loader']
+    }, {
+      test: /\.(eot|svg|ttf|woff|woff2)$/,
+      loader: 'file-loader?name=public/fonts/[name].[ext]'
+    }, {
+      test: /\.(png|jpg)$/,
+      loader: 'file-loader?name=public/img/[name].[ext]'
     }]
   },
-  devtool: "cheap-module-source-map" //"eval"    
-    ,
+  //devtool: "cheap-module-source-map", //"eval"    
   devServer: {
     historyApiFallback: true
   }

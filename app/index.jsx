@@ -1,9 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-class App extends React.Component {
-  render() {
-    return <p>quinen.github.io ...</p>;
-  }
-}
+import 'semantic-ui-css/semantic.min.css';
+
+import App from './components/App.jsx'
+
 render(<App/>, document.getElementById('app'));
