@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './Home.jsx';
 import Cv from './Cv.jsx';
+import Apps from './Apps.jsx';
 
 class Content extends Component {
     constructor(props) {
@@ -22,6 +23,7 @@ class Content extends Component {
             <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/cv" component={Cv}/>
+        <Route path="/apps" component={Apps}/>
         {/*<Route path="/cv" component={Cv}/>
         <Route path="/apps" component={Apps}/>
         <Route path="/links" component={Links}/>*/}

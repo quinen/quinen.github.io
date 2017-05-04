@@ -1,0 +1,89 @@
+{
+    "basics": {
+        "name": "Laurent Desmonceaux",
+        "label": "Développeur Web & SQL Sénior",
+        "picture": "",
+        "email": "laurent.desmonceaux@gmail.com",
+        "phone": "06 12 43 18 97",
+        "website": "http://quinen.github.io",
+        "summary": "Intégrer un groupe professionnel en utilisant mes connaissances sur un projet. Comprendre les besoins et proposer des solutions informatiques optimisées en un temps raisonnable ",
+        "location": {
+            "address": "92 rue de Paris",
+            "postalCode": "93100",
+            "city": "Montreuil",
+            "countryCode": "FR",
+            "region": "IDF"
+        },
+        "profiles": [{
+            "network": "Twitter",
+            "username": "quinen",
+            "url": "http://twitter.com/quinen"
+        }]
+    },
+    "work": [{
+        "company": "Lusis",
+        "position": "Responsable developpements IHM Web",
+        "website": "http://lusis.fr",
+        "startDate": "2014-02-01",
+        "endDate": "2017-06-01",
+        "summary": "Au sein du pole IHM Web : Maintenance et creation d 'applications aux normes PCIDSS pour le compte de :",
+        "highlights": [
+            "- Credit Agricole (Back-Office de gestion des Terminaux de Paiement)", "- Raildata (Gestion de transit des trains en Europe)", "- Mr Bricolage (Gestion fidélité clientèle & outils marketing)", "- Xandrie (Back-Office de staging pour les sites allbrary et qobuz, sites de vente en libre de produits culturels dématérialisés)", "- Mise en place d’un plugin pour le framework CakePHP pour centraliser le développement des IHMs Web"
+        ]
+    }, {
+        "company": "Company",
+        "position": "President",
+        "website": "http://company.com",
+        "startDate": "2013-01-01",
+        "endDate": "2014-01-01",
+        "summary": "Description...",
+        "highlights": [
+            "Started the company"
+        ]
+    }],
+    "volunteer": [{
+        "organization": "Organization",
+        "position": "Volunteer",
+        "website": "http://organization.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Description...",
+        "highlights": [
+            "Awarded 'Volunteer of the Month'"
+        ]
+    }],
+    "education": [{
+        "institution": "IUT de Fontainebleau",
+        "area": "Informatique de gestion",
+        "studyType": "DUT",
+        "startDate": "2000",
+        "endDate": "2003"
+    }, {
+        "institution": "Lycee Sainte Therese",
+        "area": "STI Electronique",
+        "studyType": "BAC",
+        "startDate": "2000",
+        "endDate": "2000"
+    }],
+    "skills": [{
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ]
+    }],
+    "languages": [{
+        "name": "Francais",
+        "level": "Langue maternelle"
+    }, {
+        "name": "English",
+        "level": "Conversational"
+    }],
+    "interests": [{
+        "name": "Course a pied",
+    }, {
+        "name": "Plongée (niveau P3)",
+    }]
+}

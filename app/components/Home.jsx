@@ -9,7 +9,7 @@ var input = require('../../README.md');
 const Home = () => <div>
 <br/>
 <Header icon textAlign="center" as="h1" inverted>
-		 <Icon name='home' circular inverted color="blue"/>
+		 <Icon name='home' circular inverted color="orange"/>
 		 <Header.Content>
 		 	Accueil
 		 	<Header.Subheader>
