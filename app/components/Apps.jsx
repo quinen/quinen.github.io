@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Grid, Header, Icon, Menu, Segment } from 'semantic-ui-react'
-import { HashRouter, NavLink, Route, Switch } from 'react-router-dom';
+import { HashRouter, NavLink, Redirect, Route, Switch } from 'react-router-dom';
 
 import Fraction from "./Fraction.jsx";
+
 
 class AppsMenu extends Component {
     constructor() {
@@ -45,7 +46,10 @@ const Apps = () => <div>
                 </Grid.Column>
                 <Grid.Column width={13}> 
                     <Switch>
-                        <Route path="/fraction" component={Fraction}/> { /*<Route path="/stock" component={Stock}/>*/ } < Route render = {
+                        <Redirect exact from="/" to="/fraction"/>
+                        <Route path="/fraction" component={Fraction}/> 
+                        <Route path="/stock"/> 
+                        <Route render = {
                         ({ location }) => {
                             return <div>{location.pathname} not found</div>
                         }
